@@ -81,7 +81,7 @@ sudo ldconfig
 
 # Usage
 
-##ezstumbler
+## ezstumbler
 
 ezstumbler.py [-h, --help] [-p, --passive] [-t, --timeout] [-a, --active] [--homeid]  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-p, --passive&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conduct a passive scan for a set time (secs)  
@@ -104,7 +104,7 @@ active scan:
 ezstumbler.py --active --homeid=0x1a2b3d4e
 ```
 
-##ezrecon
+## ezrecon
 
 ezrecon.py [-h, --help] [-c, --config] [-t, --timeout] homeid nodeid  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;homeid&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4 byte HomeID of target network (ex: 0x1a2b3c4d)  
@@ -116,7 +116,7 @@ ezrecon.py [-h, --help] [-c, --config] [-t, --timeout] homeid nodeid
 ezrecon.py 0x1a2b3c4d 20
 ```
 
-##ezfingerprint
+## ezfingerprint
 
 ezfingerprint.py homeid nodeid  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;homeid&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4 byte HomeID of target network (ex: 0x1a2b3c4d)  
